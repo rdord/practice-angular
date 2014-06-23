@@ -1,0 +1,7 @@
+	<h1>Codes</h1>
+	<ul>
+	  <li ng-repeat="ap in airports">
+	    <a href="" ng-click="setCurrentAp(ap.code)">{{ap.code}}</a>
+	  </li>
+	</ul>
+	<div ng-show="currentAp" ng-include="currentURL"></div>

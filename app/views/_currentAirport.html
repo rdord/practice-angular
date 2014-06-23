@@ -1,0 +1,11 @@
+<p>{{currentAp.name}} (<a href="" ng-click="changeName()">edit</a>)</p>
+
+<div ng-include="formURL" ng-show="editName"></div>
+
+<h3>Destination</h3>
+<ul>
+	<li ng-repeat="dest in currentAp.destination">
+		<a ng-href="#/airports/{{dest}}">{{dest}}</a>
+	</li>
+</ul>
+
