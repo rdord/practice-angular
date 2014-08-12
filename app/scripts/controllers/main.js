@@ -13,7 +13,7 @@ angular.module('angularTutsApp')
   };
 
   $scope.airports = {
-    'LJU' : {  
+    'LJU' : {
       'code' : 'LJU',
       'name' : 'Letališče Jožeta Pučnika Ljubljana',
       'city' : 'Ljubljana',
@@ -37,5 +37,5 @@ angular.module('angularTutsApp')
       'current' : false,
       'showEdit' : false
     }
-  }; 
+  };
 });
